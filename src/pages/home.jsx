@@ -137,11 +137,11 @@ function Home() {
     <>
       <Helmet>
         <title>
-          MusclesXtrify Premium Supplements for Muscle Growth & Strength
+          SZ Nutrition Premium Supplements for Muscle Growth & Strength
         </title>
         <meta
           name="description"
-          content="Boost muscle growth and strength with MusclesXtrify's premium supplements, designed for maximum performance and recovery."
+          content="Boost muscle growth and strength with SZ Nutrition's premium supplements, designed for maximum performance and recovery."
         />
         <meta
           name="keyword"
@@ -184,10 +184,10 @@ function Home() {
                     Increased Energy!
                   </h4>
                   <h2 className="title wow fadeInUp" data-wow-delay=".4s">
-                    MusclesXTrify - Nutrition <br /> That Powers Champions
+                    SZ Nutrition - Nutrition <br /> That Powers Champions
                   </h2>
                   <p className=" wow fadeInUp" data-wow-delay=".6s">
-                    MusclesXtrify - Premium protein supplements for muscle
+                    SZ Nutrition - Premium protein supplements for muscle
                     growth, strength, and peak performance!.
                   </p>
                   <div
@@ -224,7 +224,7 @@ function Home() {
                     <div className="tg-features-content">
                       <h4 className="title">Calorie Increase</h4>
                       <p>
-                        Boost your muscle gains with MusclesXtrify's
+                        Boost your muscle gains with SZ Nutrition's
                         calorie-increasing supplements for optimal growth.
                       </p>
                     </div>
@@ -248,7 +248,7 @@ function Home() {
                     <div className="tg-features-content">
                       <h4 className="title">Typical Routine</h4>
                       <p>
-                        Follow a balanced routine with MusclesXtrify to enhance
+                        Follow a balanced routine with SZ Nutrition to enhance
                         strength, muscle growth, and recovery.
                       </p>
                     </div>
@@ -272,7 +272,7 @@ function Home() {
                       <h4 className="title">Energy Grow Up</h4>
                       <p>
                         Fuel your workouts and boost endurance with
-                        MusclesXtrify's energy-boosting supplements.
+                        SZ Nutrition's energy-boosting supplements.
                       </p>
                     </div>
                   </div>
@@ -361,15 +361,15 @@ function Home() {
                   <div className="tg-section-title white mb-30">
                     <span className="sub-title">promotional</span>
                     <h2 className="title white-text">
-                      Elevate Your Fitness with MusclesXtrify
+                      Elevate Your Fitness with SZ Nutrition
                     </h2>
                   </div>
                   <p className="info-one">
-                    Unlock your full potential with MusclesXtrify's premium
+                    Unlock your full potential with SZ Nutrition's premium
                     supplements. Boost muscle growth, enhance performance, and
                     speed up recovery with our scientifically formulated
                     products. Experience maximum results and take your fitness
-                    journey to the next level with MusclesXtrify today!.
+                    journey to the next level with SZ Nutrition today!.
                   </p>
                   <a href="/supplements" className="tg-btn">
                     VIEW more
@@ -527,7 +527,7 @@ function Home() {
                     </div>
                     <div className="tg-shop-content">
                       <h4 className="title">
-                        <a href="pre-workout">MusclesXtrify Pre Workout</a>
+                        <a href="pre-workout">SZ Nutrition Pre Workout</a>
                       </h4>
                       <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
                         <b>₹ 1,125/-</b>
@@ -547,7 +547,7 @@ function Home() {
               <div className="row justify-content-center">
                 <div className="col-lg-8">
                   <div className="tg-section-title text-center mb-60">
-                    <span className="sub-title">MusclesXtrify Features</span>
+                    <span className="sub-title">SZ Nutrition Features</span>
                     <h2 className="title">Supplement Features</h2>
                   </div>
                 </div>
@@ -707,10 +707,10 @@ function Home() {
                 <Accordion defaultActiveKey={["1"]} alwaysOpen>
                   <Accordion.Item eventKey="1" className="mt-3 p-md-4 p-3">
                     <Accordion.Header className="f-18 lp-2">
-                      What makes MusclesXtrify supplements different?
+                      What makes SZ Nutrition supplements different?
                     </Accordion.Header>
                     <Accordion.Body className="mt-3 f-rob-reg f-14 lp-2">
-                      MusclesXtrify uses scientifically-backed ingredients that
+                      SZ Nutrition uses scientifically-backed ingredients that
                       enhance muscle growth, strength, and recovery. Our
                       formulations are designed for maximum effectiveness and
                       purity.
@@ -728,7 +728,7 @@ function Home() {
                   </Accordion.Item>
                   <Accordion.Item eventKey="3" className="mt-3 p-md-4 p-3">
                     <Accordion.Header className="f-18 lp-2">
-                      Are MusclesXtrify supplements safe to use?
+                      Are SZ Nutrition supplements safe to use?
                     </Accordion.Header>
                     <Accordion.Body className="mt-3 f-rob-reg f-14 lp-2">
                       Yes, our products are crafted with high-quality, natural
@@ -738,7 +738,7 @@ function Home() {
                   </Accordion.Item>
                   <Accordion.Item eventKey="4" className="mt-3 p-md-4 p-3">
                     <Accordion.Header className="f-18 lp-2 me-2">
-                      Can I take MusclesXtrify supplements with my current
+                      Can I take SZ Nutrition supplements with my current
                       routine?
                     </Accordion.Header>
                     <Accordion.Body className="mt-3 f-rob-reg f-14 lp-2">
@@ -796,7 +796,7 @@ function Home() {
                         </div>
                         <h2 className="title">Rajesh Sharma</h2>
                         <p>
-                          MusclesXtrify Nutrition delivers top-notch
+                          SZ Nutrition delivers top-notch
                           supplements! Noticed great muscle gain & energy boost.
                           Fast delivery & authentic products.
                         </p>

@@ -105,11 +105,11 @@ function PureGoCreatine() {
     <>
       <Helmet>
         <title>
-          MusclesXtrify Creatine Monohydrate - Boost Power & Performance
+          SZ Nutrition Creatine Monohydrate - Boost Power & Performance
         </title>
         <meta
           name="description"
-          content="Increase power, strength, and performance with MusclesXtrify Creatine Monohydrate for enhanced workouts and muscle growth."
+          content="Increase power, strength, and performance with SZ Nutrition Creatine Monohydrate for enhanced workouts and muscle growth."
         />
         <meta
           property="og:url"
@@ -175,7 +175,7 @@ function PureGoCreatine() {
                   <div className="inner-shop-details-meta">
                     <ul className="list-wrap">
                       <li>
-                        Brands : <a href="shop.html">MusclesXtrify</a>
+                        Brands : <a href="shop.html">SZ Nutrition</a>
                       </li>
                       <li className="inner-shop-details-review">
                         <div className="rating">
@@ -199,7 +199,7 @@ function PureGoCreatine() {
                     <h5 className="stock-status">{currentProductData.discount}</h5>
                   </div>
                   <p>
-                    MusclesXtrify Creatine Monohydrate is a powerful supplement
+                    SZ Nutrition Creatine Monohydrate is a powerful supplement
                     designed to enhance strength, power, and muscle performance.
                     This pure, high-quality creatine boosts energy during
                     high-intensity workouts, allowing you to push harder and
@@ -207,7 +207,7 @@ function PureGoCreatine() {
                     it supports muscle growth and endurance. Easy to mix and
                     absorb, it helps maximize workout performance, leading to
                     faster muscle recovery and improved overall fitness. Fuel
-                    your gains with MusclesXtrify Creatine!
+                    your gains with SZ Nutrition Creatine!
                   </p>
                   <div>
                     <SelectableList
@@ -261,7 +261,7 @@ function PureGoCreatine() {
                     >
                       <div className="product-desc-content">
                         <h4 className="title">
-                          MusclesXtrify ATP Creatine Monohydrate :
+                          SZ Nutrition ATP Creatine Monohydrate :
                         </h4>
                         <p>
                           Creatine monohydrate works by increasing the body's

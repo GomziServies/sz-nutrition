@@ -25,7 +25,7 @@ function HomeNutritionFooter() {
                       </div>
                       <div className="footer-text">
                         <p>
-                          Elevate your fitness journey with MusclesXtrify's
+                          Elevate your fitness journey with SZ Nutrition's
                           premium supplements for strength, muscle growth, and
                           recovery.
                         </p>
@@ -77,7 +77,7 @@ function HomeNutritionFooter() {
                       <a href="#">
                         <i className="fab fa-instagram"></i>
                       </a>
-                      <a href="https://api.whatsapp.com/send?phone=+919510343247&text=Hello, I want to know more about your service.">
+                      <a href="https://api.whatsapp.com/send?phone=+447801562772&text=Hello, I want to know more about your service.">
                         <i className="fab fa-whatsapp"></i>
                       </a>
                     </div>

@@ -184,7 +184,7 @@ function PureGoPreWorkout() {
                   <div className="inner-shop-details-meta">
                     <ul className="list-wrap">
                       <li>
-                        Brands : <a href="shop.html">MusclesXtrify</a>
+                        Brands : <a href="shop.html">SZ Nutrition</a>
                       </li>
                       <li className="inner-shop-details-review">
                         <div className="rating">
@@ -210,7 +210,7 @@ function PureGoPreWorkout() {
                     </h5>
                   </div>
                   <p>
-                    MusclesXtrify Pre Workout is designed to fuel your body with
+                    SZ Nutrition Pre Workout is designed to fuel your body with
                     energy, endurance, and focus for intense training sessions.
                     Packed with premium ingredients, it boosts stamina and helps
                     you push through your toughest workouts. This powerful
@@ -272,7 +272,7 @@ function PureGoPreWorkout() {
                     >
                       <div className="product-desc-content">
                         <h4 className="title">
-                          The true strength of MusclesXtrify
+                          The true strength of SZ Nutrition
                         </h4>
                         <p>
                           It will suppress your appetite and provide you with a

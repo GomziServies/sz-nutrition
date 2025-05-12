@@ -24,11 +24,11 @@ function Supplements() {
     <>
       <Helmet>
         <title>
-          About MusclesXtrify - Premium Supplements for Peak Performance
+          About SZ Nutrition - Premium Supplements for Peak Performance
         </title>
         <meta
           name="description"
-          content="Learn about MusclesXtrify's mission to provide top-quality supplements for muscle growth, strength, and recovery."
+          content="Learn about SZ Nutrition's mission to provide top-quality supplements for muscle growth, strength, and recovery."
         />
         <meta
           property="og:url"
@@ -212,7 +212,7 @@ function Supplements() {
                     </div>
                     <div className="tg-shop-content">
                       <h4 className="title">
-                        <a href="pre-workout">MusclesXtrify Pre Workout</a>
+                        <a href="pre-workout">SZ Nutrition Pre Workout</a>
                       </h4>
                       <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
                         <b>₹ 1,125/-</b>

@@ -24,11 +24,11 @@ function AboutUs() {
     <>
       <Helmet>
         <title>
-          About MusclesXtrify - Premium Supplements for Peak Performance
+          About SZ Nutrition - Premium Supplements for Peak Performance
         </title>
         <meta
           name="description"
-          content="Learn about MusclesXtrify's mission to provide top-quality supplements for muscle growth, strength, and recovery."
+          content="Learn about SZ Nutrition's mission to provide top-quality supplements for muscle growth, strength, and recovery."
         />
         <meta
           property="og:url"
@@ -71,11 +71,11 @@ function AboutUs() {
                 <div className="blog--post--item">
                   <div className="blog--post--content blog-details-content">
                     <h2 className="blog--post--title">
-                      MusclesXtrify - Fueling Strength, Maximizing Potential
+                      SZ Nutrition - Fueling Strength, Maximizing Potential
                     </h2>
                     <div className="post-text">
                       <p>
-                        At MusclesXtrify, we are dedicated to empowering fitness
+                        At SZ Nutrition, we are dedicated to empowering fitness
                         enthusiasts with scientifically formulated supplements
                         designed to optimize performance, enhance recovery, and
                         support muscle growth. Our mission is to provide
@@ -87,7 +87,7 @@ function AboutUs() {
                       </p>
                       <p>
                         Fitness is more than a trend—it's a way of life.
-                        MusclesXtrify is your trusted partner in pushing
+                        SZ Nutrition is your trusted partner in pushing
                         boundaries, building muscle, and enhancing endurance.
                         Experience the power of micronized creatine, whey
                         isolate protein powder, and other high-performance
@@ -106,7 +106,7 @@ function AboutUs() {
                       <div className="blog-details-wrap">
                         <h3 className="title">Our Vision</h3>
                         <p>
-                          MusclesXtrify setting the benchmark for purity,
+                          SZ Nutrition setting the benchmark for purity,
                           innovation, and effectiveness. Our goal is to inspire
                           individuals to push their limits with best whey
                           protein, and other premium supplements designed to
@@ -139,7 +139,7 @@ function AboutUs() {
                         </div>
                       </div>
                       <div className="blog-details-wrap border-none">
-                        <h3 className="title">Why Choose MusclesXtrify?</h3>
+                        <h3 className="title">Why Choose SZ Nutrition?</h3>
                         <div className="b-details-list">
                           <ul className="list-wrap">
                             <li>
@@ -162,7 +162,7 @@ function AboutUs() {
                             <li>
                               <i className="fas fa-check"></i>Designed for Every
                               Fitness Level - From beginners to professional
-                              athletes, MusclesXtrify has something for
+                              athletes, SZ Nutrition has something for
                               everyone. Our fat burners cater to diverse fitness
                               goals, from muscle building.
                             </li>
@@ -181,7 +181,7 @@ function AboutUs() {
                             Commitment to Excellence & Innovation
                           </h3>
                           <p>
-                            MusclesXtrify continuously evolves. Our focus on
+                            SZ Nutrition continuously evolves. Our focus on
                             science-backed formulations, top-quality protein
                             whey, and performance-driven ingredients sets us
                             apart in the industry.
@@ -192,7 +192,7 @@ function AboutUs() {
                             Join the Xtrify - Fuel Your Strength
                           </h3>
                           <p>
-                            MusclesXtrify is more than a supplement brand; it's
+                            SZ Nutrition is more than a supplement brand; it's
                             a lifestyle. If you're serious about achieving your
                             fitness goals, our premium-quality whey protein,
                             pre-workout powder, and creatine supplements are
@@ -200,13 +200,13 @@ function AboutUs() {
                           </p>
                           <p>
                             Fuel your strength, power your performance, and
-                            reach new heights with MusclesXtrify. Join the today
+                            reach new heights with SZ Nutrition. Join the today
                             and be part of a fitness community that values
                             strength, endurance, and health.
                           </p>
                         </div>
                         <div className="blog-details-wrap">
-                          <h3 className="title">Stay Strong. Stay Xtrified</h3>
+                          <h3 className="title">Stay Strong. Stay Fit</h3>
                         </div>
                       </div>
                     </div>

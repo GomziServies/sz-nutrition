@@ -260,13 +260,13 @@
     font-size: 32px;
   }
 
-  .MusclesXtrify-page-content blockquote,
+  .SZ Nutrition-page-content blockquote,
   .format-quote blockquote,
   .blog-details-content blockquote {
     padding: 45px 40px;
   }
 
-  .MusclesXtrify-page-content blockquote::before,
+  .SZ Nutrition-page-content blockquote::before,
   .format-quote blockquote::before,
   .blog-details-content blockquote::before {
     width: 134px;
@@ -310,7 +310,7 @@
     right: -30px;
   }
 
-  .MusclesXtrify-shop-product-main > .row {
+  .SZ Nutrition-shop-product-main > .row {
     --bs-gutter-x: 20px;
   }
 
@@ -728,7 +728,7 @@
     padding: 120px 0;
   }
 
-  .MusclesXtrify-page-content blockquote,
+  .SZ Nutrition-page-content blockquote,
   .format-quote blockquote,
   .blog-details-content blockquote {
     font-size: 24px;
@@ -1713,13 +1713,13 @@
     margin-bottom: 25px;
   }
 
-  .MusclesXtrify-page-content blockquote,
+  .SZ Nutrition-page-content blockquote,
   .format-quote blockquote,
   .blog-details-content blockquote {
     padding: 40px 25px;
   }
 
-  .MusclesXtrify-page-content blockquote::before,
+  .SZ Nutrition-page-content blockquote::before,
   .format-quote blockquote::before,
   .blog-details-content blockquote::before {
     width: 100px;
@@ -2141,7 +2141,7 @@
     font-size: 18px;
   }
 
-  .MusclesXtrify-page-content blockquote,
+  .SZ Nutrition-page-content blockquote,
   .format-quote blockquote,
   .blog-details-content blockquote {
     font-size: 26px;

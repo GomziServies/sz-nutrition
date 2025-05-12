@@ -231,7 +231,7 @@ function PureGoWheyProtein() {
                   <div className="inner-shop-details-meta">
                     <ul className="list-wrap">
                       <li>
-                        Brands : <a href="shop.html">MusclesXtrify</a>
+                        Brands : <a href="shop.html">SZ Nutrition</a>
                       </li>
                       <li className="inner-shop-details-review">
                         <div className="rating">
@@ -257,7 +257,7 @@ function PureGoWheyProtein() {
                     </h5>
                   </div>
                   <p>
-                    MusclesXtrify Whey Protein Chocolate 1kg delivers
+                    SZ Nutrition Whey Protein Chocolate 1kg delivers
                     high-quality protein to fuel muscle growth, enhance
                     recovery, and boost strength. With a rich chocolate flavor,
                     it's perfect for athletes and fitness enthusiasts looking to
@@ -318,10 +318,10 @@ function PureGoWheyProtein() {
                     >
                       <div className="product-desc-content">
                         <h4 className="title">
-                          The true strength of MusclesXtrify :
+                          The true strength of SZ Nutrition :
                         </h4>
                         <p>
-                          MusclesXtrify Nutrition Whey Protein is a Mixture of
+                          SZ Nutrition Whey Protein is a Mixture of
                           Whey Isolate, Whey Concentrate, Skimmed Milk powder,
                           Soy protein isolate and plant protein. It is packed
                           with 24g of 100% High Quality whey protein per serving
@@ -336,14 +336,14 @@ function PureGoWheyProtein() {
                         <h4 className="title">
                           BETTER INGREDIENTS = BETTER RESULTS
                         </h4>
-                        <h4 className="title">MusclesXtrify the basics :</h4>
+                        <h4 className="title">SZ Nutrition the basics :</h4>
                         <ul>
                           <li>
-                            NO COLORS: MusclesXtrify Nutrition Whey Protein does
+                            NO COLORS: SZ Nutrition Whey Protein does
                             not contain any COLOR or PRESERVATIVES.
                           </li>
                           <li>
-                            NO ADDED SUGAR: MusclesXtrify Nutrition Whey Protein
+                            NO ADDED SUGAR: SZ Nutrition Whey Protein
                             does not Contain any Added SUGAR.
                           </li>
                           <li>

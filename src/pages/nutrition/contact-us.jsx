@@ -24,11 +24,11 @@ function ContactUs() {
     <>
       <Helmet>
         <title>
-          About MusclesXtrify - Premium Supplements for Peak Performance
+          About SZ Nutrition - Premium Supplements for Peak Performance
         </title>
         <meta
           name="description"
-          content="Learn about MusclesXtrify's mission to provide top-quality supplements for muscle growth, strength, and recovery."
+          content="Learn about SZ Nutrition's mission to provide top-quality supplements for muscle growth, strength, and recovery."
         />
         <meta
           property="og:url"
@@ -79,7 +79,7 @@ function ContactUs() {
                     <div className="contact-content">
                       <h5 className="title">Address</h5>
                       <p className="contact-desc">
-                        I-701, Sanidhya Flora, New Ranip, Ahmedabad-382470
+                        Wigley Road,LE5 1JG, Leicester, United Kingdom
                       </p>
                     </div>
                   </div>
@@ -94,9 +94,7 @@ function ContactUs() {
                     </div>
                     <div className="contact-content">
                       <h5 className="title">Phone Number</h5>
-                      <p className="contact-desc">
-                        +91 95103 43247 <br /> +91 96018 02579
-                      </p>
+                      <p className="contact-desc">+447801562772</p>
                     </div>
                   </div>
                 </div>
@@ -111,8 +109,8 @@ function ContactUs() {
                     <div className="contact-content">
                       <h5 className="title">Connect</h5>
                       <p className="contact-desc">
-                        musclesxtrifynutrition@gmail.com <br />
-                        musclesxtrify.in
+                        sznutrition@mail.com <br />
+                        Website :
                       </p>
                     </div>
                   </div>
@@ -127,7 +125,7 @@ function ContactUs() {
               <div className="col-12">
                 <div id="contact-map">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4556.948051021256!2d72.45128767603619!3d23.011436216742364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9bc4cfefe18d%3A0x7a54335d8b322f4e!2sShree%20Sanidhya%20Flora!5e1!3m2!1sen!2sin!4v1742209975750!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.94966772173!2d-1.0661570999999999!3d52.6453188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487763c8942a9d8f%3A0x74edb00c7177e4be!2sWigley%20Rd%2C%20Leicester%2C%20UK!5e1!3m2!1sen!2sin!4v1747043661488!5m2!1sen!2sin"
                     allowfullscreen=""
                     loading="lazy"
                     height="650"
