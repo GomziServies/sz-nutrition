@@ -43,11 +43,6 @@ function NutritionHeader() {
               </Link>
             </li>
             <li>
-              <Link to="/supplements">
-                <p className="m-0">Products</p>
-              </Link>
-            </li>
-            <li>
               <Link to="/about-us">
                 <p className="m-0">About Us</p>
               </Link>
@@ -70,16 +65,13 @@ function NutritionHeader() {
             <img
               className="lazy"
               src={process.env.PUBLIC_URL + "../assets/images/logo_01.png"}
-              width="40%"
+              width="80%"
               alt="MuscleXTrify"
             />
           </Link>
           <ul className="mobileUserInfo aa">
             <li>
               <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/">Products</Link>
             </li>
             <li>
               <Link to="/about-us">About Us</Link>

@@ -194,7 +194,7 @@ function Home() {
                     className="tg-banner-btn wow fadeInUp"
                     data-wow-delay=".8s"
                   >
-                    <a href="/supplements" className="tg-btn">
+                    <a href="/whey-protein-powder" className="tg-btn">
                       Know More
                     </a>
                   </div>
@@ -271,8 +271,8 @@ function Home() {
                     <div className="tg-features-content">
                       <h4 className="title">Energy Grow Up</h4>
                       <p>
-                        Fuel your workouts and boost endurance with
-                        SZ Nutrition's energy-boosting supplements.
+                        Fuel your workouts and boost endurance with SZ
+                        Nutrition's energy-boosting supplements.
                       </p>
                     </div>
                   </div>
@@ -328,7 +328,14 @@ function Home() {
                       performance, and support recovery for maximum fitness
                       results.
                     </p>
-                    <a href="/supplements" className="tg-btn view-btn">
+                    <div className="tg-shop-content">
+                      <div className="tg-shop-price inner-shop-details-price d-flex">
+                        <b>£40.00/-</b>
+                        <span class="old-prices">£60.00/-</span>
+                        <h5 class="stock-status ml-3 mb-0">33.33%</h5>
+                      </div>
+                    </div>
+                    <a href="/whey-protein-powder" className="tg-btn view-btn">
                       VIEW more
                     </a>
                   </div>
@@ -371,171 +378,9 @@ function Home() {
                     products. Experience maximum results and take your fitness
                     journey to the next level with SZ Nutrition today!.
                   </p>
-                  <a href="/supplements" className="tg-btn">
+                  <a href="/whey-protein-powder" className="tg-btn">
                     VIEW more
                   </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="supplement" className="tg-shop-area pt-100 pb-60">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-8">
-                <div className="tg-section-title text-center mb-60">
-                  <span className="sub-title">PRODUCTS</span>
-                  <h2 className="title">Powerful Supplements</h2>
-                </div>
-              </div>
-            </div>
-            <div className="tg-shop-wrapper">
-              <div className="row justify-content-center">
-                <div className="col-lg-4 col-12">
-                  <div className="tg-shop-item text-center">
-                    <div className="tg-shop-thumb">
-                      <a href="whey-protein-powder?flavor=Chocolate&size=1kg">
-                        <img
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/assets/images/tg_shop01.jpg"
-                          }
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                    <div className="tg-shop-content">
-                      <h4 className="title">
-                        <a href="whey-protein-powder?flavor=Chocolate&size=1kg">
-                          Premium whey Protein
-                        </a>
-                      </h4>
-                      <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
-                        <b>₹ 2,275/-</b>
-                        <span class="old-prices">₹3500/-</span>
-                        <h5 class="stock-status ml-3 mb-0">35%</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* <div className="col-lg-6 col-md-6">
-                  <div className="tg-shop-item text-center">
-                    <div className="tg-shop-thumb">
-                      <a href="whey-protein-powder?flavor=Mocha Coffee&size=1kg">
-                        <img
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/assets/images/tg_shop02.jpg"
-                          }
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                    <div className="tg-shop-content">
-                      <h4 className="title">
-                        <a href="whey-protein-powder?flavor=Mocha Coffee&size=1kg">
-                          Whey Protein Mocha Coffee-1kg
-                        </a>
-                      </h4>
-                      <div className="tg-shop-price">₹ 2,275/-</div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-md-6">
-                  <div className="tg-shop-item text-center">
-                    <div className="tg-shop-thumb">
-                      <a href="whey-protein-powder?flavor=Chocolate&size=2kg">
-                        <img
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/assets/images/tg_shop03.jpg"
-                          }
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                    <div className="tg-shop-content">
-                      <h4 className="title">
-                        <a href="whey-protein-powder?flavor=Chocolate&size=2kg">
-                          Whey Protein Chocolate-2kg
-                        </a>
-                      </h4>
-                      <div className="tg-shop-price">₹ 4,200/-</div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-md-6">
-                  <div className="tg-shop-item text-center">
-                    <div className="tg-shop-thumb">
-                      <a href="whey-protein-powder?flavor=Mocha Coffee&size=2kg">
-                        <img
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/assets/images/tg_shop04.jpg"
-                          }
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                    <div className="tg-shop-content">
-                      <h4 className="title">
-                        <a href="whey-protein-powder?flavor=Mocha Coffee&size=2kg">
-                          Whey Protein Mocha Coffee-2kg
-                        </a>
-                      </h4>
-                      <div className="tg-shop-price">₹ 4,200/-</div>
-                    </div>
-                  </div>
-                </div> */}
-                <div className="col-lg-4 col-12">
-                  <div className="tg-shop-item text-center">
-                    <div className="tg-shop-thumb">
-                      <a href="creatine-supplements">
-                        <img
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/assets/images/tg_shop05.jpg"
-                          }
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                    <div className="tg-shop-content">
-                      <h4 className="title">
-                        <a href="creatine-supplements">Creatine Monohydrate</a>
-                      </h4>
-                      <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
-                        <b>₹ 900/-</b>
-                        <span class="old-prices">₹1800/-</span>
-                        <h5 class="stock-status ml-3 mb-0">50%</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-12">
-                  <div className="tg-shop-item text-center">
-                    <div className="tg-shop-thumb">
-                      <a href="pre-workout">
-                        <img
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/assets/images/tg_shop06.jpg"
-                          }
-                          alt="img"
-                        />
-                      </a>
-                    </div>
-                    <div className="tg-shop-content">
-                      <h4 className="title">
-                        <a href="pre-workout">SZ Nutrition Pre Workout</a>
-                      </h4>
-                      <div className="tg-shop-price inner-shop-details-price justify-content-center d-flex">
-                        <b>₹ 1,125/-</b>
-                        <span class="old-prices">₹2500/-</span>
-                        <h5 class="stock-status ml-3 mb-0">55%</h5>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -796,9 +641,9 @@ function Home() {
                         </div>
                         <h2 className="title">Rajesh Sharma</h2>
                         <p>
-                          SZ Nutrition delivers top-notch
-                          supplements! Noticed great muscle gain & energy boost.
-                          Fast delivery & authentic products.
+                          SZ Nutrition delivers top-notch supplements! Noticed
+                          great muscle gain & energy boost. Fast delivery &
+                          authentic products.
                         </p>
                       </div>
                     </div>

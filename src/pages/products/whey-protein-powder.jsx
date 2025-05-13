@@ -26,10 +26,10 @@ function PureGoWheyProtein() {
   const ProductFlavor = searchParams.get("flavor");
   const ProductSize = searchParams.get("size");
   const canonicalUrl = window.location.href;
-  const [currentProduct, setCurrentProduct] = useState("1kg-Chocolate");
+  const [currentProduct, setCurrentProduct] = useState("1kg-Mawa-Kulfi");
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [activeSize, setActiveSize] = useState("1kg");
-  const [activeFlavor, setActiveFlavor] = useState("Chocolate");
+  const [activeFlavor, setActiveFlavor] = useState("Mawa-Kulfi");
   const [opacity, setOpacity] = useState(1);
   const imageRef = useRef(null);
   const [showModal, setShowModal] = useState(false);
@@ -44,88 +44,31 @@ function PureGoWheyProtein() {
   };
 
   const productImages = {
-    "1kg-Chocolate": [
-      "/assets/images/protein-chocolate-1kg/protein-chocolate-1kg-1.jpg",
-      "/assets/images/protein-chocolate-1kg/protein-chocolate-1kg-2.jpg",
-      "/assets/images/protein-chocolate-1kg/protein-chocolate-1kg-3.jpg",
-      "/assets/images/protein-chocolate-1kg/protein-chocolate-1kg-4.jpg",
-    ],
-    "1kg-Mocha Coffee": [
-      "/assets/images/protein-mochacoffee-1kg/protein-mochacoffee-1kg-1.jpg",
-      "/assets/images/protein-mochacoffee-1kg/protein-mochacoffee-1kg-2.jpg",
-      "/assets/images/protein-mochacoffee-1kg/protein-mochacoffee-1kg-3.jpg",
-      "/assets/images/protein-mochacoffee-1kg/protein-mochacoffee-1kg-4.jpg",
-    ],
-    "2kg-Chocolate": [
-      "/assets/images/protein-chocolate-2kg/protein-chocolate-2kg-1.jpg",
-      "/assets/images/protein-chocolate-2kg/protein-chocolate-2kg-2.jpg",
-      "/assets/images/protein-chocolate-2kg/protein-chocolate-2kg-3.jpg",
-      "/assets/images/protein-chocolate-2kg/protein-chocolate-2kg-4.jpg",
-    ],
-    "2kg-Mocha Coffee": [
-      "/assets/images/protein-mochacoffee-2kg/protein-mochacoffee-2kg-1.jpg",
-      "/assets/images/protein-mochacoffee-2kg/protein-mochacoffee-2kg-2.jpg",
-      "/assets/images/protein-mochacoffee-2kg/protein-mochacoffee-2kg-3.jpg",
-      "/assets/images/protein-mochacoffee-2kg/protein-mochacoffee-2kg-4.jpg",
+    "1kg-Mawa-Kulfi": [
+      "/assets/images/protein-mawa-kulfi-1kg/protein-mawa-kulfi-1kg-1.jpg",
+      "/assets/images/protein-mawa-kulfi-1kg/protein-mawa-kulfi-1kg-2.jpg",
+      "/assets/images/protein-mawa-kulfi-1kg/protein-mawa-kulfi-1kg-3.jpg",
+      "/assets/images/protein-mawa-kulfi-1kg/protein-mawa-kulfi-1kg-4.jpg",
     ],
   };
 
   const products = [
     {
-      key: "1kg-Chocolate",
+      key: "1kg-Mawa-Kulfi",
       data: {
-        img: "/assets/images/protein-chocolate-1kg/protein-chocolate-1kg-1.jpg",
-        name: "Whey Protein 1kg Chocolate",
-        price: "2275",
-        old_price: "3500",
+        img: "/assets/images/protein-mawa-kulfi-1kg/protein-mawa-kulfi-1kg-1.jpg",
+        name: "Whey Protein 1kg mawa-kulfi",
+        price: "£40.00",
+        old_price: "£60.00",
         size: "1 Kg",
-        discount: "35%",
-      },
-    },
-    {
-      key: "1kg-Mocha Coffee",
-      data: {
-        img: "/assets/images/protein-mochacoffee-1kg/protein-mochacoffee-1kg-1.jpg",
-        name: "Whey Protein 1kg Mocha Coffee",
-        price: "2275",
-        old_price: "3500",
-        size: "1 Kg",
-        discount: "35%",
-      },
-    },
-    {
-      key: "2kg-Chocolate",
-      data: {
-        img: "/assets/images/protein-chocolate-2kg/protein-chocolate-2kg-1.jpg",
-        name: "Whey Protein 2kg Chocolate",
-        price: "4200",
-        old_price: "7000",
-        size: "2 Kg",
-        discount: "40%",
-      },
-    },
-    {
-      key: "2kg-Mocha Coffee",
-      data: {
-        img: "/assets/images/protein-mochacoffee-2kg/protein-mochacoffee-2kg-1.jpg",
-        name: "Whey Protein 2kg Mocha Coffee",
-        price: "4200",
-        old_price: "7000",
-        size: "2 Kg",
-        discount: "40%",
+        discount: "33.33%",
       },
     },
   ];
 
-  const sizeOptions = [
-    { id: "1kg", label: "1kg" },
-    { id: "2kg", label: "2kg" },
-  ];
+  const sizeOptions = [{ id: "1kg", label: "1kg" }];
 
-  const flavorOptions = [
-    { id: "Chocolate", label: "Chocolate" },
-    { id: "Mocha Coffee", label: "Mocha Coffee" },
-  ];
+  const flavorOptions = [{ id: "Mawa-Kulfi", label: "Mawa Kulfi" }];
 
   const handleSelectSize = (id) => {
     setOpacity(0.3);
@@ -247,9 +190,9 @@ function PureGoWheyProtein() {
                   </div>
                   <div className="inner-shop-details-price">
                     <h2 className="price d-flex">
-                      ₹{currentProductData.price}/-
+                      {currentProductData.price}/-
                       <span className="old-prices">
-                        ₹{currentProductData.old_price}/-
+                        {currentProductData.old_price}/-
                       </span>
                     </h2>
                     <h5 className="stock-status">
@@ -257,9 +200,9 @@ function PureGoWheyProtein() {
                     </h5>
                   </div>
                   <p>
-                    SZ Nutrition Whey Protein Chocolate 1kg delivers
+                    SZ Nutrition Whey Protein mawa-kulfi 1kg delivers
                     high-quality protein to fuel muscle growth, enhance
-                    recovery, and boost strength. With a rich chocolate flavor,
+                    recovery, and boost strength. With a rich mawa-kulfi flavor,
                     it's perfect for athletes and fitness enthusiasts looking to
                     optimize performance. Packed with essential amino acids, it
                     supports lean muscle development and faster post-workout
@@ -321,17 +264,16 @@ function PureGoWheyProtein() {
                           The true strength of SZ Nutrition :
                         </h4>
                         <p>
-                          SZ Nutrition Whey Protein is a Mixture of
-                          Whey Isolate, Whey Concentrate, Skimmed Milk powder,
-                          Soy protein isolate and plant protein. It is packed
-                          with 24g of 100% High Quality whey protein per serving
-                          (30g scoop). The benchmark and premium source of
-                          protein powders. Each serving delivers an excellent
-                          course of naturally occurring essential amino acids
-                          and Branch Chain Amino Acids (BCAA's). The protein
-                          found in Performance Whey Blend help support the
-                          growth and maintenance of lean muscle mass, ideal for
-                          everyone.
+                          SZ Nutrition Whey Protein is a Mixture of Whey
+                          Isolate, Whey Concentrate, Skimmed Milk powder, Soy
+                          protein isolate and plant protein. It is packed with
+                          24g of 100% High Quality whey protein per serving (30g
+                          scoop). The benchmark and premium source of protein
+                          powders. Each serving delivers an excellent course of
+                          naturally occurring essential amino acids and Branch
+                          Chain Amino Acids (BCAA's). The protein found in
+                          Performance Whey Blend help support the growth and
+                          maintenance of lean muscle mass, ideal for everyone.
                         </p>
                         <h4 className="title">
                           BETTER INGREDIENTS = BETTER RESULTS
@@ -339,12 +281,12 @@ function PureGoWheyProtein() {
                         <h4 className="title">SZ Nutrition the basics :</h4>
                         <ul>
                           <li>
-                            NO COLORS: SZ Nutrition Whey Protein does
-                            not contain any COLOR or PRESERVATIVES.
+                            NO COLORS: SZ Nutrition Whey Protein does not
+                            contain any COLOR or PRESERVATIVES.
                           </li>
                           <li>
-                            NO ADDED SUGAR: SZ Nutrition Whey Protein
-                            does not Contain any Added SUGAR.
+                            NO ADDED SUGAR: SZ Nutrition Whey Protein does not
+                            Contain any Added SUGAR.
                           </li>
                           <li>
                             CONTAINS SUCRALOSE: It also contains SUCRALOSE as a
@@ -402,15 +344,15 @@ function PureGoWheyProtein() {
                           <tbody>
                             <tr>
                               <th scope="row">Energy (kcal)</th>
-                              <td>153.38</td>
+                              <td>113.47</td>
                             </tr>
                             <tr>
                               <th scope="row">Total Protein (g)</th>
-                              <td>25.00</td>
+                              <td>24.00</td>
                             </tr>
                             <tr>
                               <th scope="row">Carbohydrates (g)</th>
-                              <td>3.69</td>
+                              <td>4.02</td>
                             </tr>
                             <tr>
                               <th scope="row">Added Sugar (g)</th>
@@ -418,11 +360,11 @@ function PureGoWheyProtein() {
                             </tr>
                             <tr>
                               <th scope="row">Dietary Fibre (g)</th>
-                              <td>1.07</td>
+                              <td>1.78</td>
                             </tr>
                             <tr>
                               <th scope="row">Total Fat (g)</th>
-                              <td>1.14</td>
+                              <td>0.98</td>
                             </tr>
                             <tr>
                               <th scope="row">Cholesterol (g)</th>
@@ -430,23 +372,19 @@ function PureGoWheyProtein() {
                             </tr>
                             <tr>
                               <th scope="row">Potassium (mg)</th>
-                              <td>95.0</td>
+                              <td>158</td>
                             </tr>
                             <tr>
                               <th scope="row">Sodium (mg)</th>
-                              <td>98.0</td>
-                            </tr>
-                            <tr>
-                              <th scope="row">Glutamine(g)</th>
-                              <td>4.20</td>
+                              <td>135.5</td>
                             </tr>
                             <tr>
                               <th scope="row">EAA</th>
-                              <td>11.0</td>
+                              <td>11.5</td>
                             </tr>
                             <tr>
                               <th scope="row">BCAA</th>
-                              <td>5.5</td>
+                              <td>5.87</td>
                             </tr>
                           </tbody>
                         </table>

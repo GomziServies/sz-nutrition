@@ -12,7 +12,7 @@ function HomeNutritionFooter() {
                 <div className="col-xl-4 col-lg-4">
                   <div className="footer-widget">
                     <div className="footer-about">
-                      <div className="footer-logo logo">
+                      <div className="footer-logo text-center logo">
                         <a href="/">
                           <img
                             src={
@@ -41,9 +41,6 @@ function HomeNutritionFooter() {
                         <a href="/">Home</a>
                       </li>
                       <li>
-                        <a href="/supplements">Product</a>
-                      </li>
-                      <li>
                         <a href="/about-us">About Us</a>
                       </li>
                       <li>
@@ -67,7 +64,7 @@ function HomeNutritionFooter() {
                       </div>
                       <div className="confidential-content">
                         <h4 className="con-title">100% Confidential</h4>
-                        <span>25k Active Customer</span>
+                        <span>5k Active Customer</span>
                       </div>
                     </div>
                     <div className="footer-social">

@@ -166,7 +166,7 @@ h6 {
 
 .log-new {
   display: inline-block;
-  width: 135px;
+  width: 175px;
   margin-left: 20px;
   position: absolute;
   left: 0;
@@ -227,7 +227,7 @@ h6 {
 
 .log1-new {
   position: absolute;
-  width: 135px;
+  width: 175px;
   z-index: 1;
   left: 50%;
   top: 50%;
@@ -629,7 +629,7 @@ h6 {
 }
 
 .logo img {
-  max-width: 160px;
+  max-width: 250px;
 }
 
 .navbar-wrap {
